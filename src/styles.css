@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+    padding: auto;
+}
+
+li {
+    list-style-type: none;
+}
