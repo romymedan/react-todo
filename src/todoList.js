@@ -1,21 +1,20 @@
+import react from "react";
+import todoListData from './todoListData';
+import './styles.css';
 
-    const todoList = [
-        {
-          id: 1,
-          title: 'Read Assigment'
-        },
-        {
-          id: 2,
-          title: 'Prepare the Environment'
-        },
-        {
-          id: 3,
-          title: 'Complete Assigment'
-        },
-        {
-          id: 4,
-          title: 'Drink Cofee :)'
-        }
-      ];
+function TodoList() {
+    return (
+        <ul>
+        {todoListData.map(function (item){
+          return (
+            <li key={item.id}>
+              <span>{item.id}. </span>
+              <span>{item.title}</span>
+            </li>
+          );
+        })}
+      </ul>
+    );
+}
 
-    export default todoList;
+export default TodoList;

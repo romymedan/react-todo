@@ -14,3 +14,11 @@ ul {
 li {
     list-style-type: none;
 }
+
+.add-todo {
+    text-align: center;
+}
+
+.add-todo * {
+    margin: 2px;
+}
