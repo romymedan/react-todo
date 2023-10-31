@@ -1,12 +1,11 @@
 import React from "react";
-import todoListData from './todoListData';
 import TodoListItem from "./TodoListItem";
 import './styles.css';
 
-function TodoList() {
+function TodoList({ todoList }) {
     return (
       <ul>
-        {todoListData.map(todo => (
+        {todoList.map(todo => (
           <TodoListItem key={todo.id} todo={todo} />
         ))}
       </ul>

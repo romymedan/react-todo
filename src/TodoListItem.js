@@ -1,7 +1,7 @@
 import React from "react";
 
-function TodoListItem(props){
-    const { id, title } = props.todo;
+function TodoListItem({ todo }){
+    const { id, title } = todo;
 
         return (
             <li>
