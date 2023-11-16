@@ -1,24 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 header {
-    text-align: center;
+  text-align: center;
 }
 
 ul {
-    text-align: left;
-    padding: auto;
+  text-align: left;
+  padding: auto;
 }
 
-li {
-    list-style-type: none;
-}
+/* li {
+  list-style-type: none;
+} */
 
 .add-todo {
-    text-align: center;
+  text-align: center;
 }
 
 .add-todo * {
-    margin: 2px;
+  margin: 2px;
 }
